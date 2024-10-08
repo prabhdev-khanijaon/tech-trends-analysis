@@ -1,91 +1,102 @@
 # Tech Trends Analysis: Most Starred GitHub Projects & Most Active Hacker News Articles
 
-# Overview
-Welcome to the Tech Trends Analysis project! This repository contains a Python application that analyzes the latest trends in technology by examining the most starred repositories on GitHub and the most active articles on Hacker News. By collecting and visualizing this data, the project provides insights into the current interests and discussions within the tech community.
+## Overview
+This project demonstrates various data analysis skills by working with multiple datasets and APIs. The project focuses on analyzing popular GitHub repositories, Hacker News articles, and data from different programming languages. The analysis includes data extraction, manipulation, visualization, and automation. The goal is to provide valuable insights into trends in software development, popular repositories, and articles, while showcasing key competencies required for a data analyst role.
 
-# Features
-GitHub Trending Repositories:
+## Skills Demonstrated
+Data Analysis: Extracted and processed real-world data using APIs. Cleaned and structured data for analysis.
 
-Fetches the most starred GitHub repositories for both Python and non-Python projects.
+Data Visualization: Created dynamic and interactive visualizations using Plotly to convey insights.
 
-Analyzes repository metadata such as stars, forks, issues, and programming languages.
+API Integration: Demonstrated proficiency in making API requests, handling responses, and processing JSON data.
 
-Visualizes top repositories using interactive charts.
+Automation: Implemented automated tests to validate data extraction and ensure correctness using Pytest.
+
+## Key Features
+### GitHub Repository Analysis:
+
+Analyzes the most-starred Python repositories and compares them with non-Python repositories.
+
+Extracts and processes data from the GitHub API.
+
+Visualizes results using interactive bar charts, highlighting popular repositories by programming language and stars.
+
+### Hacker News Article Analysis:
+
+Retrieves and ranks top articles from Hacker News by comment count.
+
+Visualizes the most-discussed articles using interactive plots.
+
+API Data Extraction and Automation:
+
+Demonstrates proficiency in working with APIs, making automated calls, and processing JSON responses.
+
+## Technologies Used
+Python: Primary language for data processing and visualization.
+
+Plotly: For interactive data visualizations.
+
+Pandas: For data manipulation and analysis.
+
+Requests: For making API calls and extracting data.
+
+Pytest: For unit testing.
+
+## Future Improvements
+Real-Time Data Updates: Integrating real-time data feeds from GitHub and Hacker News to provide up-to-date information.
+
+Dashboard Creation: Developing a web-based dashboard to make the analysis more accessible to non-technical users.
+
+Advanced Analysis: Expanding the scope to include time-series analysis and machine learning models for predictive insights.
+
+## How to Run
+### Clone the repository:
+
+bash
+
+Copy code
+
+git clone https://github.com/prabhdev-khanijaon/data-analyst-project.git
+
+### Install dependencies:
+
+Ensure you have Python installed. Then, install the required libraries using:
+
+bash
+
+Copy code
+
+pip install -r requirements.txt
+
+### Run the scripts:
+
+To run the Python scripts for data analysis and visualization:
+
+### For Python repository analysis:
+
+bash
+
+Copy code
+
+python python_repos_visual.py
+
+### For non-Python repository analysis:
+
+bash
+
+Copy code
+
+python other_languages_visual.py
+
+### For Hacker News articles:
+
+bash
+
+Copy code
+
+python hn_article.py
+
+Visualizations will be displayed in your browser as interactive charts.
 
 
-Hacker News Active Articles:
 
-Retrieves the most commented-on articles from Hacker News.
-
-Analyzes article metadata including title, author, number of comments, and publication date.
-
-Visualizes top articles and discussion trends.
-
-
-Data Visualization:
-
-Utilizes Plotly for interactive visualizations that allow users to explore the data.
-
-Generates bar charts, scatter plots, and time-series graphs.
-
-
-Data Analysis:
-
-Performs statistical analysis to identify patterns and correlations.
-
-Provides insights into technology trends, popular topics, and community engagement.
-
-
-# Technologies Used
-Python 3.12.3
-
-APIs:
-
-GitHub REST API v3
-
-Hacker News API
-
-Libraries:
-
-Requests: For making HTTP requests to APIs.
-
-
-
-Plotly: For creating interactive visualizations.
-
-Matplotlib: For static plots (optional).
-
-JSON: For handling JSON data from APIs.
-
-Time and Datetime: For handling time-related data.
-
-# Data Analysis
-The project performs various analyses to uncover insights:
-
-GitHub Trends:
-
-Identifies which programming languages are most popular.
-
-Analyzes the growth of repositories over time.
-
-Examines the relationship between stars, forks, and issues.
-
-Hacker News Trends:
-
-Determines the topics generating the most discussion.
-
-Analyzes the posting patterns over time.
-
-# Potential Applications
-Market Research: Helps businesses understand current technology trends.
-
-Content Strategy: Assists content creators in identifying popular topics.
-
-Competitive Analysis: Enables companies to monitor competitor projects.
-
-Educational Insights: Guides educators on emerging technologies and topics of interest.
-
-# Acknowledgments
-GitHub API: For providing access to repository data.
-
-Hacker News API: For providing access to article and comment data.
