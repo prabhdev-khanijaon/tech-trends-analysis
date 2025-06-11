@@ -1,102 +1,111 @@
-# Tech Trends Analysis: Most Starred GitHub Projects & Most Active Hacker News Articles
+# 🚀 Tech Trends Analysis: GitHub Stars & Hacker News Activity
 
-## Overview
-This project demonstrates various data analysis skills by working with multiple datasets and APIs. The project focuses on analyzing popular GitHub repositories, Hacker News articles, and data from different programming languages. The analysis includes data extraction, manipulation, visualization, and automation. The goal is to provide valuable insights into trends in software development, popular repositories, and articles, while showcasing key competencies required for a data analyst role.
+This project explores trending tech content by analyzing the **most-starred GitHub repositories** and **most-discussed Hacker News articles**.  
+It demonstrates real-world **data analysis**, **API integration**, **interactive visualization**, and **automation** — key skills for data analysts and developers alike.
 
-## Skills Demonstrated
-Data Analysis: Extracted and processed real-world data using APIs. Cleaned and structured data for analysis.
+---
 
-Data Visualization: Created dynamic and interactive visualizations using Plotly to convey insights.
+## 🧠 Project Overview
 
-API Integration: Demonstrated proficiency in making API requests, handling responses, and processing JSON data.
+- Extracts live data from the GitHub and Hacker News APIs.
+- Analyzes repository popularity and article engagement trends.
+- Visualizes insights through interactive Plotly charts.
+- Validates functionality using automated tests.
 
-Automation: Implemented automated tests to validate data extraction and ensure correctness using Pytest.
+---
 
-## Key Features
-### GitHub Repository Analysis:
+## 🔍 Skills Demonstrated
 
-Analyzes the most-starred Python repositories and compares them with non-Python repositories.
+- **API Integration**: Fetched real-time data from GitHub and Hacker News APIs.
+- **Data Analysis**: Cleaned, structured, and explored API responses using `pandas`.
+- **Data Visualization**: Built dynamic charts using `Plotly` to surface insights clearly.
+- **Automation**: Used `Pytest` to validate data extraction pipelines and maintain reliability.
 
-Extracts and processes data from the GitHub API.
+---
 
-Visualizes results using interactive bar charts, highlighting popular repositories by programming language and stars.
+## ✨ Key Features
 
-### Hacker News Article Analysis:
+### 📦 GitHub Repository Analysis
 
-Retrieves and ranks top articles from Hacker News by comment count.
+- Analyzes the most-starred repositories for:
+  - Python
+  - Other languages (e.g., JavaScript, Ruby, Go)
+- Uses the GitHub API to extract repository metadata.
+- Visualizes repo names and star counts with interactive bar charts.
 
-Visualizes the most-discussed articles using interactive plots.
+### 🌐 Hacker News Article Analysis
 
-API Data Extraction and Automation:
+- Extracts the top articles from Hacker News.
+- Ranks them by **number of comments** to highlight user engagement.
+- Presents data with interactive visualizations.
 
-Demonstrates proficiency in working with APIs, making automated calls, and processing JSON responses.
+---
 
-## Technologies Used
-Python: Primary language for data processing and visualization.
+## 🛠️ Technologies Used
 
-Plotly: For interactive data visualizations.
+| Tool        | Purpose                                   |
+|-------------|-------------------------------------------|
+| Python      | Core scripting and data handling          |
+| Plotly      | Interactive visualizations                |
+| Pandas      | Data manipulation and transformation      |
+| Requests    | API communication and data extraction     |
+| Pytest      | Automated testing for script validation   |
 
-Pandas: For data manipulation and analysis.
+---
 
-Requests: For making API calls and extracting data.
+## 🧪 Future Improvements
 
-Pytest: For unit testing.
+- 🔄 **Real-Time Updates**: Integrate live feed refresh and dynamic monitoring.
+- 📊 **Dashboard**: Create a web dashboard for non-technical stakeholders.
+- 📈 **Predictive Analysis**: Add ML models to forecast trends or engagement.
 
-## Future Improvements
-Real-Time Data Updates: Integrating real-time data feeds from GitHub and Hacker News to provide up-to-date information.
+---
 
-Dashboard Creation: Developing a web-based dashboard to make the analysis more accessible to non-technical users.
+## ⚙️ How to Run
 
-Advanced Analysis: Expanding the scope to include time-series analysis and machine learning models for predictive insights.
+### 1. Clone the Repository
 
-## How to Run
-### Clone the repository:
-
-bash
-
-Copy code
-
+```bash
 git clone https://github.com/prabhdev-khanijaon/data-analyst-project.git
+cd data-analyst-project
+````
 
-### Install dependencies:
+### 2. Install Dependencies
 
-Ensure you have Python installed. Then, install the required libraries using:
-
-bash
-
-Copy code
-
+```bash
 pip install -r requirements.txt
+```
 
-### Run the scripts:
+### 3. Run the Analysis Scripts
 
-To run the Python scripts for data analysis and visualization:
+#### 🐍 Analyze Most-Starred Python Repos
 
-### For Python repository analysis:
-
-bash
-
-Copy code
-
+```bash
 python python_repos_visual.py
+```
 
-### For non-Python repository analysis:
+#### 🌍 Analyze Most-Starred Non-Python Repos
 
-bash
-
-Copy code
-
+```bash
 python other_languages_visual.py
+```
 
-### For Hacker News articles:
+#### 📰 Analyze Most-Discussed Hacker News Articles
 
-bash
-
-Copy code
-
+```bash
 python hn_article.py
+```
 
-Visualizations will be displayed in your browser as interactive charts.
+> Visualizations will open in your browser as **interactive Plotly charts**.
 
+---
 
+## 📌 Notes
 
+* Built with **Python 3.x**
+* Great for practicing real-world data workflows
+* Demonstrates full-stack data thinking — from **API → Analysis → Visualization → Validation**
+
+---
+
+Feel free to fork, star ⭐, or contribute!
